@@ -14,7 +14,7 @@ make all
 
 ECHO Run tests ...
 cd test
-codility_test.exe
+for /r "." %%a in (*.exe) do start /WAIT /B "" "%%~fa"
 cd ..
 
 cd ..
