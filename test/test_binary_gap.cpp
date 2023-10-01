@@ -2,7 +2,7 @@
 #include "binary_gap.h"
 
 
-TEST(TEST_BINARY_GAP, test_task_example1) {
+TEST(TEST_BINARY_GAP, test_example1) {
     int N = 1041;
     int expected_result = 5;
     int result = 0;
@@ -12,7 +12,7 @@ TEST(TEST_BINARY_GAP, test_task_example1) {
     EXPECT_EQ (result, expected_result);
 }
 
-TEST(TEST_BINARY_GAP, test_task_example2) {
+TEST(TEST_BINARY_GAP, test_example2) {
     int N = 15;
     int expected_result = 0;
     int result = 0;
@@ -22,7 +22,7 @@ TEST(TEST_BINARY_GAP, test_task_example2) {
     EXPECT_EQ (result, expected_result);
 }
 
-TEST(TEST_BINARY_GAP, test_task_example3) {
+TEST(TEST_BINARY_GAP, test_example3) {
     int N = 32;
     int expected_result = 0;
     int result = 0;
@@ -32,7 +32,7 @@ TEST(TEST_BINARY_GAP, test_task_example3) {
     EXPECT_EQ (result, expected_result);
 }
 
-TEST(TEST_BINARY_GAP, test_task_extremes1) {
+TEST(TEST_BINARY_GAP, test_extremes1) {
     int N = 1;
     int expected_result = 0;
     int result = 0;
@@ -42,7 +42,7 @@ TEST(TEST_BINARY_GAP, test_task_extremes1) {
     EXPECT_EQ (result, expected_result);
 }
 
-TEST(TEST_BINARY_GAP, test_task_extremes2) {
+TEST(TEST_BINARY_GAP, test_extremes2) {
     int N = 5;
     int expected_result = 1;
     int result = 0;
@@ -52,7 +52,7 @@ TEST(TEST_BINARY_GAP, test_task_extremes2) {
     EXPECT_EQ (result, expected_result);
 }
 
-TEST(TEST_BINARY_GAP, test_task_extremes3) {
+TEST(TEST_BINARY_GAP, test_extremes3) {
     int N = 2147483647;
     int expected_result = 0;
     int result = 0;

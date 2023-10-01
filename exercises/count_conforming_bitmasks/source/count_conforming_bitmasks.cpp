@@ -10,7 +10,7 @@ int getNumberOfCombinations(int val) {
     int result = 1;
 
     /* Check each bit value in provided integer, if equals 0 multiply result by 2.
-       Example: for integer 0b1110 there are 2 conforming combinations: 
+       Example: for integer 0b1110 there are 2 conforming combinations:
        0b1110, 0b1111 */
     for (int i = 0; i < VALUE_LEN_BITS; i++) {
         if (0 == (val & (1 << i))) {

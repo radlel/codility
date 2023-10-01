@@ -1,7 +1,8 @@
 #include <iostream>
 #include "binary_gap.h"
 
-#define BITS_IN_BYTE (8)
+
+const int BITS_IN_BYTE = 8;
 
 
 int solution(int N) {
