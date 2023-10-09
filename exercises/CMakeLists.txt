@@ -1,2 +1,3 @@
 add_subdirectory(binary_gap)
 add_subdirectory(count_conforming_bitmasks)
+add_subdirectory(sparse_binary_decomposition)
