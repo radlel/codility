@@ -22,13 +22,13 @@ def create_file_from_template(op_type, template_name, file_name, file_path, repl
         """ Read template file """
         lines = template.readlines()
 
-        """ Update template file content if requested """
+        """ Update template file content if required """
         if (replacement is not None):
             for i in range(len(lines)):
                 lines[i] = lines[i].replace('<name>', replacement)
                 lines[i] = lines[i].replace('<NAME>', replacement.upper())
 
-        """ Create file """
+        """ Create/open file """
         with open(file_path + '\\' + file_name, 'a') as file:
             file.writelines(lines)
 
