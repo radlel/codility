@@ -1,0 +1,13 @@
+#include "gtest/gtest.h"
+#include "<name>.h"
+
+
+TEST(TEST_<NAME>, test_example1) {
+    int N = 0;
+    int expected_result = 0;
+    int result = 0;
+
+    result = solution(N);
+
+    EXPECT_EQ (result, expected_result);
+}

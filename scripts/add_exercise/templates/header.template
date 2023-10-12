@@ -1,0 +1,6 @@
+#ifndef EXERCISE_<NAME>_H
+#define EXERCISE_<NAME>_H
+
+int solution(int N);
+
+#endif // EXERCISE_<NAME>_H
