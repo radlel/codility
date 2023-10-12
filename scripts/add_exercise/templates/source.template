@@ -1,0 +1,8 @@
+#include <iostream>
+#include "<name>.h"
+
+
+int solution(int N) {
+
+    return 0;
+}
