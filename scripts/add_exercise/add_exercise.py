@@ -47,12 +47,16 @@ if __name__ == '__main__':
         name = sys.argv[1]
 
         path_dir_exercise = '..\\..\\exercises\\' + name
+        path_dir_resource = '..\\..\\resources\\' + name
         path_dir_tests = '..\\..\\tests'
 
         """ Check if exercise already exists """
         if not os.path.exists(path_dir_exercise):
             """ Create directory for new exercise """
             create_directory(path_dir_exercise)
+
+            """ Create resource directory """
+            create_directory(path_dir_resource)
 
             """ Create directories for header and source files """
             path_dir_include, path_dir_source = path_dir_exercise + '\\include', path_dir_exercise + '\\source'
