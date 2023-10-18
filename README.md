@@ -1,7 +1,7 @@
 # codility - exercises sulutions with tests
 This project contains codility exercises with C++ solutions scored 100% correctness and 100% performance. For each solution there is set of tests included.
 
-Exercises have their own README.md files which contains description and solution results, see example [here](exercises\binary_gap\README.md).
+Exercises have their own README.md files which contains description and solution results, see example [here](exercises/binary_gap/README.md).
 
 ## Project structure
     .
