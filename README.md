@@ -26,8 +26,9 @@ Exercises have their own README.md files which contains description and solution
 Setup for this project was done on Windows. For compilation mingw64 with msys 1.0 and CMake is used. Tests use googletest framework. Scripts are written in Python 3.
 ### Download repository
 ```git
-git clone git@github.com:radlel/codility.git
+git clone --recursive git@github.com:radlel/codility.git
 ```
+It is important to clone repo with _--recursive_ parameter. Otherwise googletest library will not be downloaded.
 
 ## Build and run tests
 To build all solutions and run tests simply execute _make_run.bat_ script.
